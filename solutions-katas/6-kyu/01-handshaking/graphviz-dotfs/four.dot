@@ -1,0 +1,9 @@
+graph {
+    rankdir=LR
+    p1 -- p2;
+    p1 -- p3;
+    p2 -- p3;
+    p1 -- p4 [color=red];
+    p2 -- p4 [color=red];
+    p3 -- p4 [color=red];
+}
