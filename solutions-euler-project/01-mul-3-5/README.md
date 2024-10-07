@@ -55,5 +55,5 @@ $2S = (n+1) + (n+1) + ... + (n+1) + (n+1)$
 
 > Simplifying and passing the 2 to the right-hand side we get
 <br> <br>
-> $S = \frac{n(n+1)}{2}$
+$S = \frac{n(n+1)}{2}$
 <br> <br>

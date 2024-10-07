@@ -12,9 +12,13 @@ def num_extraction(word)
     fn + ln
 end
 
-def trebuchet_code(fname)
+def trebuchet(fname)
   words = File.readlines(fname)
 
   words.map{ |word| num_extraction(word).to_i }.sum
 end
 ```
+
+## Second Part
+
+For the second part I just get the indexes where each substr digit word appears and get the first and last indexes. Once having that, sort the resulting list so I get the real first and last digits.

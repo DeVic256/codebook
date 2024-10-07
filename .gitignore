@@ -1,2 +1,5 @@
 *.pdb
 *.exe
+*.txt
+input
+papers/

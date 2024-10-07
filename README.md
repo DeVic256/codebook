@@ -1,5 +1,7 @@
 # Codebook
 
+![](https://www.codewars.com/users/DeVic256/badges/large)
+
 This a collection of my solutions to different problems from different places.
 
 ## Table of Content
