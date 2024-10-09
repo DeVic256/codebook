@@ -1,6 +1,6 @@
 # Codebook
 
-![](https://www.codewars.com/users/DeVic256/badges/large)
+[![](https://www.codewars.com/users/DeVic256/badges/large)](www.codewars.com/r/zpbjkQ)
 
 This a collection of my solutions to different problems from different places.
 

@@ -13,7 +13,7 @@ end
 
 Since fibonacci is a linear recurrent relation with constan coefficients you can get its [closed-formula](https://en.wikipedia.org/wiki/Fibonacci_sequence#Closed-form_expression):
 
-$ F_n = \frac{\phi^n - \psi^2}{\sqrt{5}} $
+$F_n = \frac{\phi^n - \psi^2}{\sqrt{5}}$
 
 That would turn our target function $\Omicron (1)$
 
