@@ -1,3 +1,4 @@
+//FIXME: Doesn't work for n < 8
 fn is_prime(n: u64) -> bool {
     let nf = n as f64;
     let sqrtn = nf.sqrt().round() as u64;

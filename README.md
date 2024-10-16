@@ -2,7 +2,7 @@
 
 [![](https://www.codewars.com/users/DeVic256/badges/large)](www.codewars.com/r/zpbjkQ)
 
-This a collection of my solutions to different problems from different places.
+This a collection of my solutions to different problems from different places. The purpose is to learn the Rust Programming Language while refreshing some skills.
 
 ## Table of Content
 
