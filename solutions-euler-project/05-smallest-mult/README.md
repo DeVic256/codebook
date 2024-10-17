@@ -26,6 +26,7 @@ If you start dividing $210$ for each $x_i$ you notice that only powers of prime 
 
 For instance:
 
+//FIXME: (*) not displaying correctly
 $2*2*2*3*3*5*7$ returns indeed $2520$
 
 So next step is to find those for $n = 20$ and listing all the factors:

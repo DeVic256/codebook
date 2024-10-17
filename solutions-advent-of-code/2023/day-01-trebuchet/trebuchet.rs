@@ -79,7 +79,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             Ok(word) => { 
                 match part {
                     Part::One => result += extremae_to_i(&word),
-                    Part::Two => { result += extremae_to_i(&fixed(word)); } //FIXME
+                    Part::Two => { result += extremae_to_i(&fixed(word)); } //FIXME: incorrect
                 }
             } 
             Err(e) => println!("{}", e),

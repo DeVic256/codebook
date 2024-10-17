@@ -8,3 +8,5 @@ Problems solved from the Euler project here.
 2. [Fibonacci Even Numbers](./02-even-fib//)
 3. [Largest Prime Factor](./03-lgst-prime-factor/)
 4. [Largest Palindrome Product](./04-lgst-palindrome-product/)
+5. [Smallest Multiple](./05-smallest-mult/)
+6. [Sum Square Difference](./06-sum-sqr-diff/)
