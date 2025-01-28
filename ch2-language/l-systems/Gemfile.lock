@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ffi (1.17.1-x64-mingw-ucrt)
+    raylib-bindings (0.7.10-x64-mingw)
+      ffi (~> 1.16)
+
+PLATFORMS
+  x64-mingw-ucrt
+
+DEPENDENCIES
+  raylib-bindings (~> 0.7.10)
+
+BUNDLED WITH
+   2.6.3
