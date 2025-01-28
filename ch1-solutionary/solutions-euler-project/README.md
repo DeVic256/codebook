@@ -10,3 +10,6 @@ Problems solved from the Euler project here.
 4. [Largest Palindrome Product](./04-lgst-palindrome-product/)
 5. [Smallest Multiple](./05-smallest-mult/)
 6. [Sum Square Difference](./06-sum-sqr-diff/)
+7. [10001st Prime](./07-10001st-prime/)
+8. [Largest Product in a Series](./08-lgst-product-in-a-series/)
+9. [Special Pythagorean Triplet](./09-special-pythagorean-triplet/)

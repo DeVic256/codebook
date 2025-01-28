@@ -20,7 +20,7 @@ For my tests I used a hint from the same problem:
 
 $2520$ is the smallest number that can be divided by each of the numbers from $1$ to $10$ without any remainder.
 
-So I tried with $\{2, 3, 5, 7\}$. Which product is $210 $ and not $2520$.
+So I tried with $\{2, 3, 5, 7\}$. Which product is $210$ and not $2520$.
 
 If you start dividing $210$ for each $x_i$ you notice that only powers of prime numbers such that $p^y_i <= x_i$ are missing in the factors.
 

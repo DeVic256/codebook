@@ -1,6 +1,6 @@
-# Codebook
+# CH1 - Solutionary
 
-This a collection of my solutions to different problems from different places. The purpose is to learn the Rust Programming Language while refreshing some skills.
+Here I present solutions from my own to a few challenges from different websites
 
 ## Table of Content
 

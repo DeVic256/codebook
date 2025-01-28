@@ -1,6 +1,6 @@
 dotfiles = Dir['*']
 
-res = dotfiles.filter{|pathname| !pathname.include?("make") }.map do |dotfile|
+res = dotfiles.filter{ |pathname| !pathname.include?("make") }.map do |dotfile|
   [dotfile, dotfile.split('.')[0]]
 end
 

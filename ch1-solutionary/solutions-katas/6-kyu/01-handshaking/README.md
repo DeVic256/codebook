@@ -73,7 +73,7 @@ $x^2 - x - 2h = 0$
 $x = \frac{1 \pm \sqrt{(-1)^2 - 4(-2h) } } {2} $
 <br>
 
-$x = \frac{1 \pm \sqrt{1 + 8h) } } {2} $
+$x = \frac{1 \pm \sqrt{1 + 8h} } {2} $
 <br>
 
 > Making a few test and having $det = 1 + 8h$
