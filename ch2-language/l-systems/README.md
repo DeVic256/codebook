@@ -12,7 +12,7 @@ To use the code you have to implement `init` from the Lindenmayer class to defin
 
 ```ruby
 class ModifiedQuadraticKoch < Lindenmayer
-  def init
+  def model
     iterations 3
     angle 90
 
@@ -33,6 +33,7 @@ So far you can only use rules with F+- and grouping doesn't work
 # TODO
 
 * Refactor
+* Zooming
 * Add start point
 * Add (drawing) functionality for multiple set of rules
 * CFG parsing for more complex examples

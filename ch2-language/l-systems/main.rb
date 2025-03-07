@@ -1,15 +1,25 @@
 require './lib'
 require './viz'
-require './systems' # Examples
+#require './systems' # Examples
+
+class Lindenmayer
+  def model
+    iterations 3
+    angle 60
+
+    grammar_axiom 'F++F++F'
+    grammar_rule 'F', 'FF++F--F++FF'
+  end
+end
 
 #TODO: Refactor
 class TurtleViz < Viz
   def init
-    @p1 = Point.new(x: @w - @w/4, y: @h/4)
-    @p2 = Point.new(x: @w - @w/4, y: (@h/4) + 5)
+    @p1 = Point.new(x: @w/2, y: @h/4)
+    @p2 = Point.new(x: @w/2, y: (@h/4) + 20)
     @line0 = Line.new(p1: @p1, p2: @p2)
 
-    @l = QuadraticKochIsland.new
+    @l = Lindenmayer.new
   end
 
   def F
@@ -22,7 +32,7 @@ class TurtleViz < Viz
   end
 
   def mF
-    @line0 = @line0.rotate_with(degree2rad(-@l.delta), @line0.p1)
+    @line0 = @line0.rotate_with(-degree2rad(@l.delta), @line0.p1)
   end
 
   def draw
@@ -32,7 +42,7 @@ class TurtleViz < Viz
   def update; end
 
   def once 
-    DrawLine(@line0.p1.x, @line0.p1.y, @line0.p2.x, @line0.p2.y, Raylib::RED) 
+    DrawLine(@line0.p1.x, @line0.p1.y, @line0.p2.x, @line0.p2.y, Raylib::BLUE) 
     
     @l.axiom.chars.each do |a|
       case a

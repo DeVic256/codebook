@@ -21,8 +21,12 @@ class Lindenmayer
   attr_reader :g, :delta
 
   def initialize
-    init
+    model
     loop { self.next; @n-=1; break if @n <= 0 } if @n > 0
+  end
+
+  def init
+    model
   end
 
   def grammar_axiom(a)
